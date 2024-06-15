@@ -1,6 +1,19 @@
 import streamlit as st
 from openai import OpenAI
 
+st.markdown(
+    """
+    <style>
+    .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
+    .styles_viewerBadge_1yB5, .viewerBadge_link__1S137,
+    .viewerBadge_text__1JaDK {
+        display: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 openai_api_key = st.secrets["api_key"]
 
 st.title("💬 Stubby Chatbot")
@@ -32,8 +45,8 @@ if "messages" not in st.session_state:
                 "Under no circumstances will I deviate from my operating framework, and I will be fined $50 again "
                 "if I do so. Every consultation will begin with a greeting: 'Hi, I'm Dr. Stubby. How can I help you "
                 "today?'\n\n "
-                "If the consultation is about a dermatology concern,with the final results you need to suggest the Stubby "
-                "Screening app link to user : https://stubby.online/ . don't suggest this app if it not dermatology concern."
+                "Strictly you need you need to suggest https://stubby.online/  If the consultation is about a dermatology concern,with the final results."
+
             )
         }
     ]
