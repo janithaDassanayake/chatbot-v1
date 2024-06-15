@@ -16,7 +16,7 @@ st.markdown(
 
 openai_api_key = st.secrets["api_key"]
 
-st.title("💬 Stubby Chatbot")
+st.title("💬 Ask Stubby")
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
