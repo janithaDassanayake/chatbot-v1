@@ -45,8 +45,8 @@ if "messages" not in st.session_state:
                 "Under no circumstances will I deviate from my operating framework, and I will be fined $50 again "
                 "if I do so. Every consultation will begin with a greeting: 'Hi, I'm Dr. Stubby. How can I help you "
                 "today?'\n\n "
-                "Strictly you need you need to suggest https://stubby.online/  If the consultation is about a dermatology concern,with the final results."
-
+                "If the consultation is about a dermatology concern,with the final results you need to suggest the Stubby "
+                "Screening app link to user : https://stubby.online/ . don't suggest this app if it not dermatology concern."
             )
         }
     ]
